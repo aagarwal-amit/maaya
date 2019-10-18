@@ -2,7 +2,7 @@ import React from 'react';
 import { createStackNavigator } from 'react-navigation-stack';
 
 import MarketHomeScreen from '../screens/marketplace/MarketHomeScreen';
-import CreateList from '../screens/CreateList';
+import CreateNewListing from '../screens/marketplace/CreateNewListing';
 import Colors from '../styles/Colors';
 
 
@@ -16,8 +16,8 @@ const MarketStackNavigator = createStackNavigator(
       //   header: null,
       // },
     },
-    CreateList: {
-      screen: CreateList
+    CreateNewListing: {
+      screen: CreateNewListing
     }
   },
   {

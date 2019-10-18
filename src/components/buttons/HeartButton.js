@@ -37,7 +37,7 @@ export default class HeartButton extends Component {
       >
         <View>
           <Icon
-            name={addedToFavorite ? 'heart' : 'heart-o'}
+            name={addedToFavorite ? 'ios-heart' : 'ios-heart-empty'}
             color={addedToFavorite ? selectedColor : color}
             size={18}
           />
